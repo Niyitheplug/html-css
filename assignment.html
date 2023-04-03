@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Olaniyi Okunlola">
+        <meta name="description" content="This page contains information about my first portfolio">
+        <title> My first portfolio</title>
+    </head>
+    <body>
+        <header>
+            <div id="banner">
+                <img src="images/Portfolio.png" alt="logo" width="100px">
+                <h1>My portfolio</h1>
+            </div>
+        <!--This is a nav bar-->
+        <nav>
+            <ul>
+                <li>Home </li> 
+                <li>About</li>
+                <li>Work</li>
+                <li>Resume</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        </header>
+        <hr>
+        <main>
+            <!-- This is a personal Information section -->
+            <section id="About Me">
+                <h2>About Me</h2>
+                <p>My name is Olaniyi Okunlola.
+                    <br> I am a graduate of Economics from Lagos State University.
+                    <br> I am currently learning the fundamentals of web development at Gomycode tech institute.</p>
+                    <img src="images/olaniyi pass.jpeg" alt="Olaniyi" width="200px">
+                    <br>
+                    <audio controls>
+                        <source src="audio/The-Weeknd-Call-Out-My-Name-Live-(HiphopKit.com).mp3" type="audio/mpeg">
+                    </audio>
+            </section>
+            <section id="Work">
+                <h2> Work Information</h2>
+                <p>Guaranty Trust Bank- Relationship Officer Aug 2022- Till Date</p>
+            </section>
+            <section id="Resume">
+                <h2> Resume </h2>
+                <p> This is my resume</p>
+            </section>
+           
+            <section id="Contact">
+                <h2>Contact Me</h2>
+                <p>I'd really like to hear from you!</p>
+
+                <form>
+                    <p>
+                    <label for="full name"> Full Name:</label>
+                    <input type="text" placeholder="Enter Your Full Name">
+                    </p>
+
+                    <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    </p>
+
+                    <p>
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" id="phone" name="phone">
+                    </p>
+
+                    <p>
+                     <label for="Birthday"> D.O.B:</label>
+                     <input type="date" id="date" name="date">
+                    </p>
+
+                     <p>
+                        <label for="gender">Gender:</label>
+                        <select name="gender">
+                        <option value="">Please select one…</option>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="non-binary">Non-Binary</option>
+                        <option value="other">Other</option>
+                        <option value="Prefer not to answer">Prefer not to Answer</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="priority">Priority:</label>
+                        <input type="radio" id="1" class="priority">
+                        <input type="radio" id="2" class="priority">
+                        <input type="radio" id="3" class="priority">
+                        <input type="radio" id="4" class="priority">
+                        <input type="radio" id="5" class="priority">
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password">
+                    </p>
+                    <p>
+                         <label for="message">Your Message:</label>
+                    </p>
+                    <textarea name="message" id="message" cols="30" rows="18" placeholder="Type your message here"></textarea>
+                </form>
+                
+                <form>
+                    <p>Please read and agree to the following disclaimer:</p>
+                    <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sodales tincidunt dui, id scelerisque libero viverra nec. Proin nisi sem, placerat id aliquam id, iaculis elementum libero. Etiam tincidunt lacus quam, eu consectetur arcu eleifend ut. Nullam eget neque et elit scelerisque eleifend et eget ante.</em></p>
+                    <label>
+                        <input type="checkbox" name="disclaimer-agreement" required> I agree to the above disclaimer.
+                    </label>
+
+                    <p><button type="submit">Submit</button></p>
+                </form>
+            </section>
+            <hr>
+            <!-- The footer part of the page -->
+            <footer>
+                <p>&copy; 2023 My Website. All rights reserved.</p>
+                <p>Contact me at olaniyi@mywebsite.com</p>
+            </footer>
+        </main>
+
+    </body>
+</html>
