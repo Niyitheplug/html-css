@@ -6,33 +6,32 @@
         <meta name="author" content="Olaniyi Okunlola">
         <meta name="description" content="This page contains information about my first portfolio">
         <title> My first portfolio</title>
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
         <header>
             <div id="banner">
-                <img src="images/Portfolio.png" alt="logo" width="100px">
                 <h1>My portfolio</h1>
             </div>
+
         <!--This is a nav bar-->
-        <nav>
-            <ul>
-                <li>Home </li> 
-                <li>About</li>
-                <li>Work</li>
-                <li>Resume</li>
-                <li>Contact</li>
-            </ul>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Work</a>
+            <a href="#">Resume</a>
+            <a href="#">Contact</a>
         </nav>
         </header>
         <hr>
         <main>
             <!-- This is a personal Information section -->
-            <section id="About Me">
-                <h2>About Me</h2>
-                <p>My name is Olaniyi Okunlola.
+            <section id="about Me">
+                <h2 class="about">About Me</h2>
+                <p class="a-text">My name is Olaniyi Okunlola.
                     <br> I am a graduate of Economics from Lagos State University.
                     <br> I am currently learning the fundamentals of web development at Gomycode tech institute.</p>
-                    <img src="images/olaniyi pass.jpeg" alt="Olaniyi" width="200px">
+                    <img src="images/olaniyi pass.jpeg" alt="Olaniyi" width="300px height=300px" class="centre-image">
                     <br>
                     <audio controls>
                         <source src="audio/The-Weeknd-Call-Out-My-Name-Live-(HiphopKit.com).mp3" type="audio/mpeg">
@@ -111,13 +110,11 @@
                     <p><button type="submit">Submit</button></p>
                 </form>
             </section>
-            <hr>
+        </main>
             <!-- The footer part of the page -->
             <footer>
                 <p>&copy; 2023 My Website. All rights reserved.</p>
                 <p>Contact me at olaniyi@mywebsite.com</p>
             </footer>
-        </main>
-
     </body>
 </html>

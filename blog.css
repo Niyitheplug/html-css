@@ -1,0 +1,93 @@
+h2 {
+    color: whitesmoke;
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+p {
+   text-align: center;
+   color: whitesmoke;
+   font-size: 20px;
+}
+
+header {
+    background-color: hsl(356, 100%, 66%);
+    padding: 50px;
+    border-radius: 50px;
+  }
+
+.menu {
+    display: inline-block;
+    position: relative;
+  }
+
+  /* Style for the menu items */
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li {
+    display: inline-block;
+    padding: 10px;
+    background-color: hsl(0, 1%, 82%);
+    cursor: pointer;
+    position: relative;
+  }
+
+  .d-flex {
+    margin-left: 350px;
+    padding-left: 30px;
+    align-content:top;
+  }
+    
+
+  /* Style for the arrow icon */
+  .menu li::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    border: solid #000;
+    border-width: 0 1px 1px 0;
+    padding: 3px;
+    transform: rotate(45deg);
+  }
+
+  /* Style for the drop-down content */
+  .menu .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f2f2f2;
+    min-width: 200px;
+    padding: 10px;
+  }
+
+  /* Show the drop-down content when hovering over the menu item */
+  .menu li:hover .dropdown-content {
+    display: block;
+  }
+
+  /* .d-flex>.btn {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+} */
+
+button.btn{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-content: center;
+    margin-top: auto;
+}
+
